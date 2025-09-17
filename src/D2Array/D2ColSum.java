@@ -14,7 +14,7 @@ public class D2ColSum {
             for (int i = 0; i < arr.length; i++) {
                 sum+=arr[i][j];
             }
-            System.out.println("Col "+j+" Sum of Col "+sum);
+            System.out.println("Col : "+(j+1)+" Sum "+sum);
         }
     }
 }
